@@ -23,7 +23,7 @@ st.set_page_config(
 # PATHS
 # ============================================================
 
-BASE_DIR = r"C:\Users\TamilKavi\Documents\AI_Loan_Risk_Project"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DATA_PATH = os.path.join(
     BASE_DIR,
